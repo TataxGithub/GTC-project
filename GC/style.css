@@ -70,7 +70,7 @@ nav {
 
 }
 
-    .webeditor h10 {        
+    .webeditor p {        
         float: left;        
         color: #fff;        
         font-size: 25px;
@@ -90,7 +90,7 @@ nav {
     padding: 10px 10px;
 }
 
-    .webeditor ul li h11 {
+    .webeditor ul li p {
         color: #fff;
         text-decoration: none;
         font-size: 15px;
