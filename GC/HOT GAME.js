@@ -22,7 +22,7 @@
                 }
               }
               const html =
-                '<div class="name" onclick="changeName(' + currentData.name +')"> "ชื่อ:" ' + currentData.name + '</div>'
+                '<div class="name" onclick="changeName(' + currentData.name +')"> ชื่อ: ' + currentData.name + '</div>'
                 + '<img src="' + currentData.icon + '"/>'
                 + '<div>ประเภท: ' + genre_string + '</div>'
                 + '<div class="detail">' + currentData.description + '</div>'

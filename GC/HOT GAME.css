@@ -58,6 +58,7 @@ nav img{
 	background-size: cover;
 	position: relative;
 }
+<style>
       html {
         font-size: 20px;
       }
@@ -83,7 +84,7 @@ nav img{
         background-color: #f9ca33;
         text-align: center;
         border-width: 1px;
-        border-color: white;
+        border-color: black;
         border-style: solid;
         padding: 10px;
         margin: 10px;
@@ -99,7 +100,7 @@ nav img{
       }
       .card .detail {
         height: 150px;
-
+        overflow-y: scroll;
       }
       ul {
         padding: 0;
@@ -120,6 +121,4 @@ nav img{
         color: red;
         cursor: pointer;
       }
-
-
-
+    </style>
