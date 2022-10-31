@@ -7,6 +7,10 @@
 	list-style: none;
 	box-sizing: border-box;
 }
+body{
+	font-family: 'Lato', sans-serif;
+	size: 10px;
+}
 .Events {
 	line-height: 1.7;
 	color: var(--color-white);
@@ -26,16 +30,17 @@ h4 {
 }
 .imagecir {
 	width: 100%;
+	height: 200px;
 	display: block;
 	object-fit: cover;
-	border-radius: 29px;
+	border-radius: 0px;
 
 }
 :root {
 	--color-black: #000;
 	--color-white: #fff;
 	--color-danger:#2a62f9;
-	--color-bg1: #f9ca33;
+	--color-bg1: linear-gradient(#1e81f5, #16c4ec);
 	--color-primary: #6c63ff;
 	--transition: all 400ms ease;
 }
@@ -68,6 +73,7 @@ nav img{
 	color: #fff;
 	text-decoration: none;
 	font-size: 15px;
+	font-weight: 600;
 }
 .nav-links ul li::after{
 	content: "";
@@ -228,12 +234,14 @@ nav img{
 		justify-content: space-between;
 		align-items: center;
 		background: rgba(4,9,30,1);
+		margin-top: 100px;
+		
 	}
 	
-	.webeditor p {
+	.webeditor p{
 			float: left;
 			color: #fff;
-			font-size: 25px;
+			font-size: 15px;
 			text-align: center;
 		}
 	.webeditor-name {
@@ -241,6 +249,7 @@ nav img{
 		text-align: right;
 		float: right;
 		position: center;
+		
 	}
 	
 	
@@ -248,12 +257,14 @@ nav img{
 		list-style: none;
 		display: inline-block;
 		padding: 10px 10px;
+		
 	}
 	
 		.webeditor ul li p {
 			color: #fff;
 			text-decoration: none;
 			font-size: 15px;
+			text-align: center;
 		}
 	
 	.game {
@@ -281,18 +292,20 @@ nav img{
 	color: var(--color-black);
 	padding: 1rem 2rem;
 	border: 1px solid transparent;
-	font-weight: 500;
+	font-weight: 600;
 	transition: var(--transition);
+	border-radius: 10px;
 	
 }
 .btn:hover{
 	background: transparent;
+	background-color: #f9ca33;
 	color: var(--color-black);
 	border-color: var(--color-black);
 }
 
 .btn-primary{
-	background: var(--color-danger);
+	background-color: #f5d46b;
 	color: var(--color-black);
 }
 .Events{
@@ -306,6 +319,8 @@ nav img{
 	justify-items: center;
 	margin-left: 150px;
 	margin-right: 150px;
+	box-sizing: content-box;
+	
 }
 .Event{
 	background: var(--color-bg1);
@@ -313,11 +328,12 @@ nav img{
 	border: 1px solid transparent;
 	transition: var(--transition);
 	border-radius: 29px;
-
-	
+	width: 450px;
+	height: 500px;
 }
 .Event:hover {
 	background: transparent;
+	background-image: linear-gradient(#8a79da, #c5c0dc);
 	border-color: var(--color-primary);
 }
 .EventInfo{
@@ -387,6 +403,7 @@ nav img{
 	justify-content: space-between;
 	background: rgba(28, 64, 206, 0.7);
 	
+	
 }
 .contact img{
 	width: 150px;
@@ -399,5 +416,14 @@ nav img{
 	height: 700px;
 }
 .re{
-	hight : 10px;
+	height : 10px;
+}
+.blue{
+	background-image: linear-gradient(#1e81f5, #16c4ec);
+	width: 100%;
+	height: 40px;
+	font-weight: 600;
+}
+p{
+	size: 10px;
 }

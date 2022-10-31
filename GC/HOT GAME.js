@@ -22,9 +22,9 @@
                 }
               }
               const html =
-                '<div class="name" onclick="changeName(' + currentData.name +')"> ª×èÍ: ' + currentData.name + '</div>'
+                '<div class="name" onclick="changeName(' + currentData.name +')"> ï¿½ï¿½ï¿½ï¿½: ' + currentData.name + '</div>'
                 + '<img src="' + currentData.icon + '"/>'
-                + '<div>»ÃÐàÀ·: ' + genre_string + '</div>'
+                + '<div>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: ' + genre_string + '</div>'
                 + '<div class="detail">' + currentData.description + '</div>'
                 + '<a href="' + currentData.icon + '">link</a>';
               html.trim();
