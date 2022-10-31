@@ -7,12 +7,37 @@
 	list-style: none;
 	box-sizing: border-box;
 }
+.Events {
+	line-height: 1.7;
+	color: var(--color-white);
+
+	padding: 20px;
+}
+section h2 {
+	text-align: center;
+	margin-bottom: 4rem;
+	
+}
+h2 {
+	color: black;
+}
+h4 {
+	font-size: 1.6rem;
+}
+.imagecir {
+	width: 100%;
+	display: block;
+	object-fit: cover;
+	border-radius: 29px;
+
+}
 :root {
 	--color-black: #000;
 	--color-white: #fff;
-	--color-danger: #f75842;
-	--color-bg1: #2e3567;
-	--color-primary: #424890;
+	--color-danger:#2a62f9;
+	--color-bg1: #f9ca33;
+	--color-primary: #6c63ff;
+	--transition: all 400ms ease;
 }
 .header{
 	min-height: 55vh;
@@ -280,19 +305,25 @@ nav img{
 }
 .Events{
 	margin-top: 10rem;
+	
 }
 .ContainEvent{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 2rem;
+	justify-items: center;
+	
 }
 .Event{
 	background: var(--color-bg1);
 	text-align: center;
 	border: 1px solid transparent;
 	transition: var(--transition);
+	border-radius: 29px;
+
+	
 }
-.Event:hover{
+.Event:hover {
 	background: transparent;
 	border-color: var(--color-primary);
 }
@@ -303,3 +334,6 @@ nav img{
 	margin: 1.2rem 0 2rem;
 	font-size: 0.9rem;
 }
+/*.EventImage {
+	padding: 30px;
+}*/
