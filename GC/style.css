@@ -302,9 +302,10 @@ nav img{
 .ContainEvent{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 2rem;
+	gap: 10px;
 	justify-items: center;
-	
+	margin-left: 150px;
+	margin-right: 150px;
 }
 .Event{
 	background: var(--color-bg1);
