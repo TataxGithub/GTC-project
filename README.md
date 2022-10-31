@@ -1,2 +1,0 @@
-# GTC-project
-GamertoCoder Project
